@@ -34,9 +34,8 @@
 						</a>
 					</div>
 					<div class="col-lg-5 d-none d-lg-block">
-						<div class="hero-visual glass p-4">
-							<div class="dots"></div>
-							<div class="rockets"></div>
+						<div class="hero-visual glass p-4 ">
+							<img src="../../public/1.png" class="img-thumbnail">
 						</div>
 					</div>
 				</div>
@@ -66,11 +65,10 @@
 				<h2 class="h4 fw-semibold mb-4">Популярные курсы</h2>
 				<div class="row g-4">
 					<div class="col-md-4" v-for="c in courses" :key="c.title">
-						<div class="card h-100 shadow-sm border-0">
-							<div class="position-relative">
-								<div class="ratio ratio-16x9 bg-secondary-subtle rounded-top" :style="{backgroundImage: 'linear-gradient(135deg, #e3f2fd, #f3e5f5)'}"></div>
-								<span class="badge bg-primary position-absolute top-0 start-0 m-2">Популярный</span>
-							</div>
+						<div class="card h-100 shadow-sm border-0 position-relative">
+							
+								<div class="badge bg-primary position-absolute bottom-0 end-0 m-3">Популярный</div>
+							
 							<div class="card-body">
 								<div class="d-flex align-items-center gap-2 mb-2">
 									<img :alt="c.author" class="rounded-circle" width="28" height="28" :src="c.avatar" />

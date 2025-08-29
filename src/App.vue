@@ -17,7 +17,7 @@
 					<RouterLink class="list-group-item list-group-item-action" v-else to="/logout">Выход</RouterLink>
 				</nav>
 			</aside>
-			<main class="col-12 col-md-9 col-lg-10 p-0 m-0 w-100">
+			<main class="col-12 col-md-9 col-lg-10 p-0 m-0">
 				<RouterView />
 			</main>
 		</div>
