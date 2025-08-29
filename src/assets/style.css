@@ -1,0 +1,16 @@
+:root { font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; line-height: 1.5; color-scheme: light dark; color: #213547; background-color: #ffffff; }
+a { color: #1976d2; text-decoration: none; }
+a:hover { text-decoration: underline; }
+body { margin: 0; }
+h1, h2, h3 { margin: 0 0 12px; }
+section { padding: 8px 0; }
+header { border-bottom: 1px solid #eee; padding-bottom: 8px; }
+nav a { padding: 4px 8px; border-radius: 6px; }
+nav a.router-link-active { background: #e3f2fd; }
+table { font-size: 14px; }
+button { cursor: pointer; }
+/* Global helpers for mock styling */
+.page-hero { background: radial-gradient(1200px 600px at 10% 10%, #e3f2fd 0, transparent 60%), linear-gradient(135deg, #e3f2fd, #f3e5f5); border-bottom: 1px solid rgba(13,110,253,.15); }
+.glass { background: rgba(255,255,255,.72); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,.5); border-radius: 12px; }
+.shadow-soft { box-shadow: 0 10px 30px rgba(0,0,0,.06); }
+
